@@ -1,18 +1,7 @@
 # Shapefile.js
 
-Redoing all of this in modern JS. Promises, Typed Arrays, other hipster things, I wouldn't say it's based on [RandomEtc's version](https://github.com/RandomEtc/shapefile-js) as much as inspired by it as there is 0 code shared and I really only read the binary ajax part of his (hence why my function has the same name, they are otherwise not related). My sources were:
-
-- [wikipedia article](https://en.wikipedia.org/wiki/Shapefile)
-- [ESRI white paper](http://www.esri.com/library/whitepapers/pdfs/shapefile.pdf)
-- [This page on Xbase](http://www.clicketyclick.dk/databases/xbase/format/dbf.html)
-
-##Demos
-
-- [Countries/zipfile](http://calvinmetcalf.github.io/shapefile-js)
-- [Google maps](http://calvinmetcalf.github.io/shapefile-js/site/map.html)
-- [Local Zipfile](http://leaflet.calvinmetcalf.com)
-- [Projected big with web workers](http://calvinmetcalf.github.io/shapefile-js/site/proj.html)
-- [Projected small](http://calvinmetcalf.github.io/shapefile-js/site/proj-small.html)
+[![Dependency Status](https://david-dm.org/patosai/shp2json-js.svg)](https://david-dm.org/patosai/shp2json-js)
+[![devDependency Status](https://david-dm.org/patosai/shp2json-js/dev-status.svg)](https://david-dm.org/patosai/shp2json-js#info=devDependencies)
 
 ##API
 
@@ -109,16 +98,4 @@ worker.data(reader.result,[reader.result]).then(function(data){
 
 
 ##LICENSE
-Main library MIT license, original version was less permissive but there is 0 code shared. Included libraries are under their respective lisenses which are:
-- [JSZip](https://github.com/Stuk/jszip/) by @Stuk MIT or GPLv3
-- [lie](https://github.com/calvinmetcalf/lie) by me and @RubenVerborgh MIT 
-- [setImmediate](https://github.com/NobleJS/setImmediate) by @NobleJS et al MIT
-- [World Borders shapefile](http://thematicmapping.org/downloads/world_borders.php) is CC-BY-SA 3.0.
-- Park and Ride shapefile is from [MassDOT](http://mass.gov/massdot) and is public domain.
-- MA town boundaries from [MassGIS](http://www.mass.gov/anf/research-and-tech/it-serv-and-support/application-serv/office-of-geographic-information-massgis/) and is public domain
-- NJ County Boundaries from [NJgin](https://njgin.state.nj.us/NJ_NJGINExplorer/index.jsp) and should be public domain.
-- [Proj4js](https://github.com/proj4js/proj4js) by me et al MIT
-
-[![Dependency Status](https://david-dm.org/calvinmetcalf/shapefile-js.svg)](https://david-dm.org/calvinmetcalf/shapefile-js)
-[![devDependency Status](https://david-dm.org/calvinmetcalf/shapefile-js/dev-status.svg)](https://david-dm.org/calvinmetcalf/shapefile-js#info=devDependencies)
-[![peerDependency Status](https://david-dm.org/calvinmetcalf/shapefile-js/peer-status.svg)](https://david-dm.org/calvinmetcalf/shapefile-js#info=peerDependencies)
+MIT.
