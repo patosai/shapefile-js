@@ -1,11 +1,11 @@
 {
-  "name": "shpjs",
-  "version": "3.3.2",
-  "description": "A binary shapefile loader, for javascript. Not many caveats",
+  "name": "shp2json-js",
+  "version": "0.1.0",
+  "description": "Converts shapefiles to GeoJSON, all in JavaScript",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/calvinmetcalf/shapefile-js.git"
+    "url": "git://github.com/patosai/shp2json-js.git"
   },
   "scripts": {
     "test": "mocha ./test/test.js",
@@ -14,7 +14,7 @@
     "build": "browserify . -s shp > ./dist/shp.js",
     "min": "browserify . -s shp | uglifyjs -mc > ./dist/shp.min.js"
   },
-  "author": "Calvin Metcalf",
+  "author": "Patrick Tsai",
   "license": "MIT",
   "readmeFilename": "README.md",
   "devDependencies": {
