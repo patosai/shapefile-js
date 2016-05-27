@@ -1,6 +1,2 @@
-*~
-node_modules
-.c9revisions
-jam
-components
-.DS_Store
+node_modules/
+dist/
