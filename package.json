@@ -1,6 +1,6 @@
 {
   "name": "shp2json-js",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Converts shapefiles to GeoJSON, all in JavaScript",
   "main": "lib/index.js",
   "repository": {
